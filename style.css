@@ -32,7 +32,7 @@ header {
 }
 
 .logo {
-  color: rgb(252, 128, 165);
+  color: rgb(95, 26, 47);
   font-size: 28px;
   font-weight: bold;
 }
@@ -45,7 +45,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: rgb(252, 128, 165);
+  color: rgb(95, 26, 47);
   transition: 0.3s;
   font-weight: bold;
 }
@@ -58,7 +58,7 @@ header {
   display: none;
   font-size: 28px;
   cursor: pointer;
-  color: rgb(252, 128, 165);
+  color: #723a48;
 }
 
 /* SECTIONS */
@@ -67,7 +67,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 10%;
+  padding: 10px 10%;
   text-align: center;
 }
 
@@ -77,28 +77,45 @@ header {
 
 .home h1 {
   font-size: 55px;
-  color: rgb(252, 128, 165);
-}
-
-.home h2 {
-  font-size: 30px;
+  color: #723a48;
+  font-family: Georgia;
+  text-align: left;
+  font-weight: bold;
 }
 
 .home p {
   margin-top: 15px;
+  text-align: left;
+}
+
+.photo img {
+  width: 300px;
+  margin-left: auto;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #723a48;
+}
+
+.photo p {
+  margin-top: 10px;
   font-size: 18px;
+  font-weight: bold;
+  color: #723a48;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 .content h2 {
   font-size: 40px;
+  font-family: Georgia;
   margin-bottom: 20px;
   color: #ff69b4;
 }
 
 .content p {
-  max-width: 700px;
+  max-width: 1500px;
   line-height: 1.8;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* PROJECTS */
