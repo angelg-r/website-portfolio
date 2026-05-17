@@ -124,11 +124,65 @@ header {
 .about h4 {
   text-align: left;
   color: rgb(95, 26, 47);
+  
 }
 
 .about h1 {
   text-align: justify;
   color: #723a48;
+  font-family: Georgia;
+}
+
+.about p {
+  text-align: left;
+  font-size: 18px;
+  color: #723a48;
+  text-align: justify;
+}
+
+.about li {
+  margin-left: 10%;
+  text-align: left;
+  color: #723a48;
+}
+
+.skills {
+  margin-left: 40px;
+}
+
+.skills h4 {
+  text-align: center;
+  color: #723a48;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* GRID LAYOUT */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* SKILL BOX */
+.skill-box {
+  background-color: #ffe1ea;
+  color: #723a48;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid #723a48;
+  transition: 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.skill-box:hover {
+  background-color: #ffc9c9;
+  transform: scale(1.05);
 }
 
 /* PROJECTS */
