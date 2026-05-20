@@ -217,17 +217,19 @@ header {
 .projects-container {
   display: flex;
   flex-direction: row;
-  gap: 25px;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* THIS is the correct one */
   margin-top: 50px;
-  padding-bottom: 10px;
 }
 
 .project-card {
   background: #ffffff;
   color: #2b2b2b;
   padding: 25px;
-  border-radius: 20px;
-  width: 340px;
+  border-radius: 10px;
+  width: 300px; /* equal size cards */
+  min-height: 420px;
   overflow: hidden;
   transition: 0.4s ease;
   border: 2px solid #f3b6c4;
