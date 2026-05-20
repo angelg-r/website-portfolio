@@ -292,8 +292,7 @@ header {
 }
 
 .project-card button:hover {
-  transform: translateY(-8px);
-  background-color: #fff5f8;
+  background-color: #a77883;
   box-shadow: 0 12px 25px rgba(114, 58, 72, 0.2);
 }
 
