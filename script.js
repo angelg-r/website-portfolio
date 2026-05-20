@@ -14,13 +14,11 @@ window.addEventListener("scroll", () => {
     const rect = section.getBoundingClientRect();
     const windowHeight = window.innerHeight;
 
-    // distance from center of screen
     const center = windowHeight / 2;
     const sectionCenter = rect.top + rect.height / 2;
 
     const distance = Math.abs(center - sectionCenter);
 
-    // fade formula
     let opacity = 1 - distance / 400;
 
     if (opacity < 0) opacity = 0;
@@ -29,8 +27,17 @@ window.addEventListener("scroll", () => {
     section.style.opacity = opacity;
     section.style.transform = `scale(${0.95 + opacity * 0.05})`;
   });
-
-  function openFurniture() {
-  window.open("https://kurumi-13.github.io/?fbclid=IwY2xjawR6jMNleHRuA2FlbQIxMABicmlkETFrV2poZkFMOUlVdkprRUNjc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHirn4N5viByPY", "_blank");
-}
 });
+
+// ✅ MOVE THIS OUTSIDE
+function openFurniture() {
+  window.open(
+    "https://kurumi-13.github.io/?fbclid=IwY2xjawR6jMNleHRuA2FlbQIxMABicmlkETFrV2poZkFMOUlVdkprRUNjc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHirn4N5viByPY",
+    "_blank"
+  );
+}
+function openGraphic() {
+  window.open(
+    "https://drive.google.com/file/d/1_Jdu_9xu_m4dh7ZAOibnP85GPRd_ryrA/view?usp=sharing"
+  );
+}
