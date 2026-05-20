@@ -29,4 +29,8 @@ window.addEventListener("scroll", () => {
     section.style.opacity = opacity;
     section.style.transform = `scale(${0.95 + opacity * 0.05})`;
   });
+
+  function openFurniture() {
+  window.open("https://kurumi-13.github.io/?fbclid=IwY2xjawR6jMNleHRuA2FlbQIxMABicmlkETFrV2poZkFMOUlVdkprRUNjc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHirn4N5viByPY", "_blank");
+}
 });
