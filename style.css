@@ -364,10 +364,12 @@ header {
   text-decoration: none;
   line-height: 1.7;
   word-break: break-word;
+  transition: 0.3s;
 }
 
 .contact-card a:hover {
   color: #723a48;
+  text-decoration: underline;
 }
 
 /* FOOTER */
