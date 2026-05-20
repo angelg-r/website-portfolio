@@ -301,14 +301,82 @@ header {
   color: #723a48;
   transform: scale(1.05);
 }
+
 /* CONTACT */
 
 .contact {
-  background-color: #ffffff;
+  background: linear-gradient(to bottom, #ffffff, #ffe4eb);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contact-container {
   width: 100%;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 50px;
+  color: #723a48;
+  font-family: Georgia;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  max-width: 750px;
+  margin: auto;
+  color: #555;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  background-color: white;
+  width: 300px;
+  padding: 35px 25px;
+  border-radius: 15px;
+  border: 2px solid #f3b6c4;
+  box-shadow: 0 8px 20px rgba(114, 58, 72, 0.12);
+  transition: 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  background-color: #fff5f8;
+  box-shadow: 0 12px 25px rgba(114, 58, 72, 0.2);
+}
+
+.contact-card h3 {
+  color: #723a48;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-family: Georgia;
+}
+
+.contact-card p,
+.contact-card a {
+  color: #555;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.7;
+  word-break: break-word;
+}
+
+.contact-card a:hover {
+  color: #723a48;
 }
 
 /* FOOTER */
+
 footer {
   background-color: #ffffff;
   text-align: center;
@@ -316,6 +384,7 @@ footer {
   font-size: 14px;
   color: rgb(95, 26, 47);
   font-weight: bold;
+  border-top: 1px solid #f3b6c4;
 }
 
 /* RESPONSIVE */
