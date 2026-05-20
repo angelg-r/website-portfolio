@@ -41,9 +41,3 @@ function openGraphic() {
     "https://drive.google.com/file/d/1_Jdu_9xu_m4dh7ZAOibnP85GPRd_ryrA/view?usp=sharing"
   );
 }
-
-function openLibrary() {
-  window.open(
-    "https://github.com/aaeyngel/LIBRARY-BOOK-BORROWING-SYSTEM"
-  );
-}
