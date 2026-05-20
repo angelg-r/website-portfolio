@@ -68,7 +68,7 @@ header {
 
 /* HOME */
 .home {
-  background-color: #ffc9c9;
+  background: linear-gradient(to bottom, #ffffff, #ffe4eb);
   color: rgb(95, 26, 47);
 }
 
@@ -118,7 +118,7 @@ header {
 /* ABOUT */
 
 .about {
-  background-color: #ffffff;
+  background: linear-gradient(to bottom, #ffffff, #ffe4eb);
 }
 
 .about h4 {
@@ -168,21 +168,15 @@ header {
 
 /* SKILL BOX */
 .skill-box {
-  background-color: #ffe1ea;
-  color: #723a48;
+  background-color: #723a48;
+  color: #ffffff;
+  border: 2px solid #f3b6c4;
   padding: 15px;
   border-radius: 10px;
   text-align: center;
   font-weight: bold;
   font-size: 16px;
-  border: 2px solid #723a48;
   transition: 0.3s ease;
-}
-
-/* HOVER EFFECT */
-.skill-box:hover {
-  background-color: #ffc9c9;
-  transform: scale(1.05);
 }
 
 /* PROJECTS */
@@ -190,7 +184,7 @@ header {
 /* PROJECTS */
 
 .projects {
-  background: linear-gradient(to bottom, #ffc9c9, #ffdfe7);
+  background: linear-gradient(to bottom, #ffffff, #ffe4eb);
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -226,6 +220,7 @@ header {
 .project-card {
   background: #ffffff;
   color: #2b2b2b;
+  border: 2px solid #f3b6c4;
   padding: 25px;
   border-radius: 10px;
   width: 300px;
@@ -297,9 +292,9 @@ header {
 }
 
 .project-card button:hover {
-  background-color: #ffc9c9;
-  color: #723a48;
-  transform: scale(1.05);
+  transform: translateY(-8px);
+  background-color: #fff5f8;
+  box-shadow: 0 12px 25px rgba(114, 58, 72, 0.2);
 }
 
 /* CONTACT */
